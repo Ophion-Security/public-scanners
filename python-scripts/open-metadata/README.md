@@ -6,4 +6,4 @@ A misconfigured deployment of OpenMetadata can allow attackers to get administra
 
 ## Blog Post
 
-https://ophionsecurity.com/blog/hacking-our-way-into-an-e-commerce-db
+https://ophionsecurity.com/blog/hacking-our-way-into-an-internal-db

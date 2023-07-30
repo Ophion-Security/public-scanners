@@ -1,0 +1,9 @@
+on:
+  pull_request:
+    types: [review_requested]
+jobs:
+  specific_review_requested:
+    runs-on: ubuntu-latest
+    if: ${{ github.event.requested_team.name == 'octo-team'}}
+    steps:
+      - run: echo 'A review from octo-team was requested'

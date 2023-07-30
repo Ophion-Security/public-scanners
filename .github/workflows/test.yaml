@@ -1,6 +1,5 @@
 on:
   pull_request:
-    types: [review_requested]
 jobs:
   specific_review_requested:
     runs-on: ubuntu-latest
